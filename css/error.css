@@ -1,0 +1,32 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.error {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	color: #363437;
+}
+.title {
+	font-size: 150px;
+	margin-top: 50px;
+}
+.gifka {
+	margin-left: 700px;
+	margin-top: 0;
+}
+.kakashka {
+	width: 500px;
+}
+h2 {
+	font-size: 50px;
+	margin-top: 0 auto;
+}
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f1553a;
+	font-size: 30px;
+}
