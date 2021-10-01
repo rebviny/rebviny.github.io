@@ -1,12 +1,25 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .bebas {
     font-family: "Bebas Neue", sans-serif;
 }
 
 #text1 {
     font-size: 100px;
+}
+
+@media screen and (max-width: 736px) {
+    #text1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #text1 {
+        font-size: 45px;
+    }
 }
 
 html,
