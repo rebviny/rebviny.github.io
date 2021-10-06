@@ -3,6 +3,58 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+#form404 {
+    margin-top: 50px;
+}
+
+
+
+
+#img404 {
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.5s;
+}
+
+@media screen and (min-width: 736px) {
+    #img404 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #img404 {
+        width: 100%;
+    }
+}
+
+#oy {
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.5s;
+    letter-spacing: normal;
+    margin-top: 50px;
+}
+
+#oy:hover {
+    letter-spacing: 0.1em;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 736px) {
+    #oy {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #oy {
+        font-size: 15px;
+    }
+}
+
 #vk {
     background-color: #1c88db00;
     transition: all 0.5s;
@@ -90,6 +142,14 @@
 .sety {
     font-family: "Bebas Neue";
     font-size: 30px;
+}
+
+#gohome {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 html,
