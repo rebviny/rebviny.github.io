@@ -7,7 +7,7 @@
     margin-top: 50px;
 }
 
-#preloadcont {
+#container {
     position: absolute;
     margin: auto;
     width: 100vw;
@@ -15,7 +15,7 @@
     top: 0;
     bottom: 0;
 
-    filter: url(#pre) blur(0.6px);
+    filter: url(#threshold) blur(0.6px);
 }
 
 #text1,
