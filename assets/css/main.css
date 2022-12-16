@@ -8,6 +8,30 @@
 }
 
 
+#preloadcont {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#pre) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Bebas Neue", cursive;
+    font-size: 80pt;
+
+    text-align: center;
+
+    user-select: none;
+}
 
 
 #img404 {
