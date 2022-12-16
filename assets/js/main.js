@@ -2,6 +2,7 @@
 	by HTML5 UP
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
 const elts = {
     text1: document.getElementById("text1"),
     text2: document.getElementById("text2")
@@ -59,6 +60,29 @@ function doCooldown() {
     elts.text1.style.filter = "";
     elts.text1.style.opacity = "0%";
 }
+
+function animate() {
+    requestAnimationFrame(animate);
+
+    let newTime = new Date();
+    let shouldIncrementIndex = cooldown > 0;
+    let dt = (newTime - time) / 1000;
+    time = newTime;
+
+    cooldown -= dt;
+
+    if (cooldown <= 0) {
+        if (shouldIncrementIndex) {
+            textIndex++;
+        }
+
+        doMorph();
+    } else {
+        doCooldown();
+    }
+}
+
+animate();
 
 (function($) {
 
