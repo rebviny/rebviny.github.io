@@ -18,7 +18,7 @@
     height: 100vh;
     z-index: 1;
     overflow: visible;
-    background: rgb(22, 22, 22) url("../../images/reload.gif") no-repeat center center;
+    background: rgb(22, 22, 22) url("../../images/preload.gif") no-repeat center center;
 }
 
 #form404 {
